@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color: #23252C;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    display: inline-block;
+    width: 300px;
+    background-color: #1A1B21;
+    color: white;
+    border-radius: 10px;
+    margin: 20px 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container--brief > img {
+    width: 300px;
+    border-radius: 10px 10px 0 0;
+}
+
+.container--information > h2 {
+    margin: 20px 0 2px 0;
+}
+
+.container--information > p {
+    color: #F3BF99;
+    margin-bottom: 10px;
+}
+
+.container--brief_button {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.container--brief_button > button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.emailBttn{
+    color: #1A1B21;
+    margin-right: 20px;
+}
+
+.emailBttn:hover{
+    background-color: #1A1B21;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.githubBttn{
+    background-color: #5093E2;
+    color: white;
+}
+
+.githubBttn:hover{
+    color: #5093E2;
+    background: white;
+    transition: 0.3s ease-in-out;
+}
+
+.container--detailed{
+    margin: 30px 25px;
+    text-align: left;
+    font-weight: 200;
+}
+
+.container--detailed_about > h4{
+    margin-bottom: 5px;
+} 
+
+.container--detailed_interests > h4{
+    margin: 20px 0 5px 0;
+}
